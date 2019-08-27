@@ -38,9 +38,17 @@ const Bio = () => {
       style={{
         display: `flex`,
         marginBottom: rhythm(2.5),
+        textAlign: 'center',
+        backgroundColor: '#d6d6d612',
+        borderRadius: '1rem',
+        padding: '1rem'
       }}
     >
-      <p>
+      <p
+        style={{
+          marginBottom: '0rem'
+        }}
+      >
     Inspect Element is a collection of Chrome Developer Tool tips learnt over time. From simple usability tips to complex JavaScript debugging. 
       </p>
     </div>
