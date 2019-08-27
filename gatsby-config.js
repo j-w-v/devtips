@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `DevTool Tips`,
+    title: `Inspect Element`,
     author: `Bob Cool`,
-    description: `Dev Tool Tips is a collection of Chrome Developer Tool tips learnt over time.`,
-    siteUrl: `https://devtooltips.netlify.com/`,
+    description: `Inspect Element is a collection of Chrome Developer Tool tips learnt over time.`,
+    siteUrl: `https://inspectelement.netlify.com/`,
     social: {
       twitter: `#`,
     },

@@ -8,7 +8,7 @@ Can't remember a CSS property name but know the value you need?
 
 Chrome DevTools has you covered!
 
-Within the element.style section in DevTools start typing the value you want to use. If recognised, DevTools with create auto suggestions saving you time.
+Within the element.style section in DevTools start typing the value you want to use. If recognised, DevTools will create auto suggestions saving you time.
 
 Example:
 
