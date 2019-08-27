@@ -10,7 +10,7 @@ Chrome DevTools has you covered!
 
 Within the element.style section in DevTools start typing the value you want to use. If recognised, DevTools will create auto suggestions saving you time.
 
-Example:
+Example: You know you want your text to be 'italic' but can't remember the 'font-style' property.
 
 1. Type 'italic' into the element.style section.
 2. DevTools will auto suggest: 
