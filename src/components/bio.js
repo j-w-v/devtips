@@ -41,7 +41,7 @@ const Bio = () => {
       }}
     >
       <p>
-    Dev Tool Tips is a collection of Chrome Developer Tool tips learnt over time.
+    Inspect Element is a collection of Chrome Developer Tool tips learnt over time. From simple usability tips to complex JavaScript debugging. 
       </p>
     </div>
   )
