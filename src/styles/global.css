@@ -1,0 +1,10 @@
+h3.titles a{
+    color: #2E303A;
+    text-decoration: underline;
+    text-decoration-color: #F4A417;
+ 
+}
+
+section ol{
+    margin-left: 1rem;
+}
