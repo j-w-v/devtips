@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import Form from '../components/form'
 
 class BlogIndex extends React.Component {
   render() {
@@ -44,6 +45,7 @@ class BlogIndex extends React.Component {
             </article>
           )
         })}
+        <Form />
       </Layout>
     )
   }

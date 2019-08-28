@@ -2,6 +2,8 @@ import React from "react"
 
 const Form = () => {
   return (
+      <>
+    <p>Want more tips? Get an email each time we post a new one</p>
     <form name="Contact Form" method="POST" data-netlify="true" action="/thank-you">
       <p>
         <label>
@@ -17,6 +19,7 @@ const Form = () => {
         <button type="submit">Send</button>
       </p>
     </form>
+    </>
   )
 }
 export default Form

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import logo from "../../content/assets/icon.inline.svg"
-import Form from '../components/form'
+
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -76,8 +76,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          <p>Want more tips? Get an email each time we post a new one</p>
-          <Form />
+          
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>

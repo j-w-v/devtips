@@ -8,3 +8,20 @@ h3.titles a{
 section ol{
     margin-left: 1rem;
 }
+
+form{
+    font-size:.9rem;
+}
+
+form p{
+    margin-bottom:1rem;
+    display: inline-block;
+}
+
+input{
+    display: inline-block;
+}
+
+lable{
+    display: inline-block;
+}
