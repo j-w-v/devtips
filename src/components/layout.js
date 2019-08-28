@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import logo from "../../content/assets/icon.inline.svg"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -28,6 +29,10 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
+          <img src={logo} alt="Logo" style={{
+                width: '2rem',
+                marginLeft: '1rem',
+          }}/>
         </h1>
       )
     } else {
@@ -48,6 +53,11 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
+          <img src={logo} alt="Logo" style={{
+                width: '1.5rem',
+                marginLeft: '.5rem',
+                marginBottom: '0rem'
+          }}/>
         </h3>
       )
     }
