@@ -45,6 +45,11 @@ class BlogIndex extends React.Component {
             </article>
           )
         })}
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
+          />
         <Form />
       </Layout>
     )
