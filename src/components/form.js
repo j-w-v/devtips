@@ -4,25 +4,27 @@ const Form = () => {
   return (
       <>
     <p>Want more tips? Get an email each time we post a new one.</p>
-    <form name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you" enctype="application/x-www-form-urlencoded">
-    <p class="hidden">
-    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-  </p>
-      <p>
-        <label>
-          Name <input type="text" name="name" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Email <input type="email" name="email" />
-        </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
-    </>
+    <form
+    name="contact"
+    method="post"
+    action="/thank-you"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+  >
+    <input type="hidden" name="bot-field" />
+    <div>
+      <label htmlFor="name">Name</label>
+      <input type="text" name="name" id="name" />
+    </div>
+    <div>
+      <label htmlFor="email">Email</label>
+      <input type="text" name="email" id="email" />
+    </div>
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
+  </form>
+  </>
   )
 }
 export default Form
