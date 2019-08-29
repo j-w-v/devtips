@@ -46,9 +46,7 @@ class BlogPostTemplate extends React.Component {
               marginBottom: rhythm(1),
             }}
           />
-          <footer>
-            <Bio />
-          </footer>
+       
         </article>
 
         <nav>
@@ -78,6 +76,10 @@ class BlogPostTemplate extends React.Component {
           </ul>
         </nav>
         <Form />
+        <footer>
+            <Bio />
+          </footer>
+       
       </Layout>
     )
   }

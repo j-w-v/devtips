@@ -3,7 +3,7 @@ import React from "react"
 const Form = () => {
   return (
       <>
-    <p>Want more tips? Get an email each time we post a new one.</p>
+    <h4>Get tips in your inbox...</h4>
     <form
     name="contact"
     method="post"
@@ -21,7 +21,7 @@ const Form = () => {
       <input type="text" name="email" id="email" />
     </div>
     <div>
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Subscribe" />
     </div>
   </form>
   </>
