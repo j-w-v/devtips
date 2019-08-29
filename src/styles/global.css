@@ -25,6 +25,7 @@ input{
 label{
     display: inline-block;
     padding-right:.5rem;
+    padding-left:.5rem;
 } 
 
 .hidden{
