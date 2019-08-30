@@ -1,9 +1,18 @@
+body{
+    background: hsla(0, 0%, 0%, 0.01);
+}
+
 h3.titles a{
     color: #2E303A;
     text-decoration: underline;
     text-decoration-color: #F4A417;
  
 }
+
+h3.titles:hover {
+    background-color: #a0c5e88f;
+}
+
 
 section ol, section ul{
     margin-left: 1rem;
