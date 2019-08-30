@@ -5,7 +5,7 @@ h3.titles a{
  
 }
 
-section ol{
+section ol, section ul{
     margin-left: 1rem;
 }
 
