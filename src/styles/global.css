@@ -40,3 +40,11 @@ label{
 .hidden{
     display:none;
 }
+
+.inspect p{
+    margin:0;
+}
+
+blockquote{
+    background: white;
+}
