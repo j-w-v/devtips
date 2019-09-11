@@ -2,6 +2,10 @@ body{
     background: hsla(0, 0%, 0%, 0.01);
 }
 
+h3.titles{
+    margin-top: 0;
+}
+
 h3.titles a{
     color: #2E303A;
     text-decoration: underline;
